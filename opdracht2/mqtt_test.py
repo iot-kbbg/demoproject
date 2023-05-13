@@ -2,9 +2,12 @@ from comms import connect, send_mqtt_payload
 import time
 
 # wifi credentials
-iot_ssid = 'bvnetwerk'
-iot_passwd = 'xLbCMeZtac'
-mqtt_server = "10.20.226.113"
+#iot_ssid = 'bvnetwerk'
+#iot_passwd = 'xLbCMeZtac'
+iot_ssid = "Galaxy A51 F77D"
+iot_passwd = 'thya4739'
+mqtt_server = "192.168.244.9"
+
 
 connect(iot_ssid, iot_passwd)
 
